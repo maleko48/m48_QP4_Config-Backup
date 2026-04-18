@@ -55,3 +55,17 @@ system_dependencies = system-dependencies.json
 virtualenv = ~/crowsnest-env
 requirements = requirements.txt
 
+[update_manager FreeDi]
+type = git_repo
+path = ~/FreeDi
+channel = stable
+origin = https://github.com/Phil1988/FreeDi
+virtualenv = ~/klippy-env
+requirements = requirements.txt
+managed_services = FreeDi
+info_tags = 
+	desc=FreeDi
+	sparse_dirs:
+	- FreeDiLCD
+	- screen_firmwares
+
